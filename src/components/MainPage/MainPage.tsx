@@ -1,9 +1,12 @@
 import * as React from "react";
+import FashionCloud from "./FashionCloud/FashionCloud";
 
 class MainPage extends React.Component {
   public render() {
     return (
-			<div>MainPage</div>
+			<div>
+        <FashionCloud/>
+      </div>
     );
   }
 }

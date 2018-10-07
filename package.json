@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/react-css-modules": "^4.6.2",
     "@types/react-router-dom": "^4.3.1",
     "autoprefixer": "7.1.6",
     "axios": "^0.18.0",
