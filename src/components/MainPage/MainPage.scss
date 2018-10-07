@@ -1,0 +1,32 @@
+.MainPage {
+    background-color: black;
+    
+    width: 1366px;
+    height: 968px;
+
+    .header{
+        // background-color: blue;
+        color: white;
+        height: 69px;
+        .home {
+            display: inline-block;
+            position: relative;
+            padding-left: 52px;
+            padding-top: 34px;
+            font-size: 47px;
+            font-family: 'DIN Condensed Bold';
+            text-align: left;
+        }
+        
+        .heart {
+            display: block;
+            position: relative;
+            padding-top: 37px;
+            padding-right: 44px;
+            float: right;
+            width: 35px;
+            height: 31px;
+        }
+    }
+}
+

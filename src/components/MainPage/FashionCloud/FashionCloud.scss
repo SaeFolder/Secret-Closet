@@ -1,0 +1,200 @@
+.cloudbox {
+    display: inline-block;
+    width: 488px;
+    height: 438px;
+    border: solid 1px white;
+    margin-top: 196px;
+    margin-left: 439px;
+    color: white;
+
+    .feminine, .pair, .dandy, .casual, .vintage, .retro, .simple, .modern, .classic, .sporty, .office, .layered, .min, .max, .street, .hiphop, .ethnic {
+        display: inline-block;
+        position: relative;
+        font-family: 'Helvetica';
+        font-weight: bold;
+        text-align: left;
+    }
+
+    .feminine {
+        padding-top: 36px;
+        padding-left: 39px;
+        font-size: 66px;
+        line-height: 0.91;
+    }
+    
+    .colorbox_1, .colorbox_2, .colorbox_3, .colorbox_4, .colorbox_5, .colorbox_6 {
+        display: inline-block;
+        position: relative;
+        width: 52px;
+        height: 52px;
+    }
+    
+    .colorbox_1 {
+        width: 51px;
+        height: 50px;
+        background-color: green;
+        margin-left: 11px;
+    }
+
+    .pair {
+        transform-origin: 100% 100%;
+        transform: rotate(90deg);
+        font-size: 37px;
+        left: 343px;
+        bottom: 26px;
+    }
+
+    .dandy {
+        font-size: 37px;
+        right: 45px;
+        line-height: 1.62;
+        bottom: 9px;
+    }
+
+    .casual {
+        font-size: 48px;
+        transform-origin: 0% 0%;
+        transform: rotate(90deg);
+        top: 6px;
+        left: 17px;
+    }
+
+    .vintage {
+        font-size: 30px;
+        left: 245px;
+        bottom: 82px;
+    }
+    
+    .retro {
+        font-size: 21px;
+        transform-origin: 0% 0%;
+        transform: rotate(90deg);
+        left: 279px;
+        bottom: 89px;
+    }
+
+    .colorbox_2 {
+        background-color: blue;
+        left: 224px;
+        bottom: 27px;
+    }
+    
+    .simple {
+        font-size: 78px;
+        transform-origin: 0% 0%;
+        transform: rotate(90deg);
+        left: 109px;
+        bottom: 73px;
+    }
+
+    .colorbox_3 {
+        background-color: red;
+        right: 180px;
+        bottom: 88px;
+    }
+
+    .colorbox_4 {
+        background-color: pink;
+        right: 232px;
+        bottom: 26px;
+    }
+
+    .modern {
+        font-size: 21px;
+        transform-origin: 0% 0%;
+        transform: rotate(90deg);
+        right: 125px;
+        bottom: 122px;
+    }
+
+    .classic {
+        font-size: 21px;
+        left: 283px;
+        bottom: 189px;
+    }
+
+    .sporty {
+        font-size: 48px;
+        left: 187px;
+        bottom: 124px;
+    }
+
+    .office {
+        font-size: 30px;
+        transform-origin: 0% 0%;
+        transform: rotate(90deg);
+        right: 136px;
+        bottom: 50px;
+    }
+
+    .layered {
+        font-size: 24px;
+        left: 237px;
+        bottom: 138px;
+    }
+
+    .colorbox_5 {
+        background-color: gray;
+        left: 247px;
+        bottom: 118px;
+    }
+
+    .min {
+        font-size: 27px;
+        left: 259px;
+        bottom: 153px;
+    }
+
+    .max {
+        font-size: 24px;
+        left: 211px;
+        bottom: 124px;
+    }
+
+    .street {
+        font-size: 78px;
+        line-height: 0.77;
+        left: 164px;
+        bottom: 109px;
+    }
+
+    .hiphop {
+        font-size: 41px;
+        right: 202px;
+        bottom: 56px;
+    }
+
+    .colorbox_6 {
+        background-color: sandybrown;
+        left: 280px;
+        bottom: 110px;
+    }
+
+    .ethnic {
+        font-size: 29px;
+        left: 298px;
+        bottom: 127px;
+    }
+}
+
+.cloudbox_2 {
+    display: inline-block;
+    width: 488px;
+    height: 438px;
+    border: solid 1px white;
+    position: absolute;
+    left: 450px;
+    top: 277px;
+}
+
+.text {
+    display: inline-block;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+    left: 495px;
+    top: 783px;
+    font-family: 'Helvetica';
+}
