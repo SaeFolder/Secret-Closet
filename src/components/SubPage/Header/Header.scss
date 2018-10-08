@@ -39,16 +39,16 @@
 }
 
 .rectangular1{
-  margin-left: 396px;
+  margin-left: auto;
+  margin-right: auto;
   width: 575px;
   height: 125px;
   border: solid 3.8px black;
 }
 
 .rectangular2{
-  position: absolute;
-  top: 76px;
-  left: 405px;
+  margin-top: 5px;
+  margin-left: 5px;
   width: 575px;
   height: 125px;
   border: solid 3.8px black;
