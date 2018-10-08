@@ -1,0 +1,10 @@
+export const container:string;
+export const menubox:string;
+export const menulist:string;
+export const menutxt:string;
+export const mainheader:string;
+export const bigtitle:string;
+export const smalltitle:string;
+export const rectangular1:string;
+export const rectangular2:string;
+export const secloset:string;
