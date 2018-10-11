@@ -1,11 +1,23 @@
 .cloudbox {
-    display: inline-block;
+    display: block;
     width: 488px;
     height: 438px;
-    border: solid 1px white;
+    border: solid 2px white;
     margin-top: 196px;
-    margin-left: 439px;
+    // margin-left: 439px;
+    margin-left: auto;
+    margin-right: auto;
     color: white;
+
+    .cloudbox_2 {
+        display: inline-block;
+        width: 488px;
+        height: 438px;
+        border: solid 2px white;
+        position: absolute;
+        margin-left: 11px;
+        margin-top: 12px;
+    }
 
     .feminine, .pair, .dandy, .casual, .vintage, .retro, .simple, .modern, .classic, .sporty, .office, .layered, .min, .max, .street, .hiphop, .ethnic {
         display: inline-block;
@@ -32,7 +44,7 @@
     .colorbox_1 {
         width: 51px;
         height: 50px;
-        background-color: green;
+        background-color: #636F50;
         margin-left: 11px;
     }
 
@@ -74,7 +86,7 @@
     }
 
     .colorbox_2 {
-        background-color: blue;
+        background-color: #56698C;
         left: 224px;
         bottom: 27px;
     }
@@ -88,13 +100,13 @@
     }
 
     .colorbox_3 {
-        background-color: red;
+        background-color: #845755;
         right: 180px;
         bottom: 88px;
     }
 
     .colorbox_4 {
-        background-color: pink;
+        background-color: #EACCCB;
         right: 232px;
         bottom: 26px;
     }
@@ -134,7 +146,7 @@
     }
 
     .colorbox_5 {
-        background-color: gray;
+        background-color: #A9A9A9;
         left: 247px;
         bottom: 118px;
     }
@@ -165,7 +177,7 @@
     }
 
     .colorbox_6 {
-        background-color: sandybrown;
+        background-color: #A89173;
         left: 280px;
         bottom: 110px;
     }
@@ -177,24 +189,19 @@
     }
 }
 
-.cloudbox_2 {
-    display: inline-block;
-    width: 488px;
-    height: 438px;
-    border: solid 1px white;
-    position: absolute;
-    left: 450px;
-    top: 277px;
-}
+
 
 .text {
-    display: inline-block;
-    position: absolute;
+    display: block;
+    // position: absolute;
     font-size: 30px;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     color: white;
-    left: 495px;
-    top: 783px;
+    // left: 495px;
+    // top: 783px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
     font-family: 'Helvetica';
 }

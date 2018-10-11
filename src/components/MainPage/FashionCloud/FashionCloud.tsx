@@ -6,6 +6,7 @@ class FashionCloud extends React.Component {
     return (
 			<div>
         <div className={styles.cloudbox}>
+          <div className={styles.cloudbox_2}/>
           <div className={styles.feminine}>
             FEMININE
           </div>
@@ -64,7 +65,7 @@ class FashionCloud extends React.Component {
             ETHNIC
           </div>
         </div>
-        <div className={styles.cloudbox_2}/>
+        
         <div className={styles.text}>
           JUST CLICK YOUR STYLE
         </div>
