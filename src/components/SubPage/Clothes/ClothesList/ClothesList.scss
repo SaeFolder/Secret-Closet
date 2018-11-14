@@ -1,0 +1,57 @@
+.listbox {
+  width: 1305px;
+  height: 519px;
+  opacity: 0.95;
+  background-color: #eeeeee;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  .imgbox {
+    
+    width: 1259px;
+    height: 430px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 45px;
+
+    .list_1, .list_2, .list_3 {
+      width: 325px;
+      height: 430px;
+    }
+
+    .list_1 {
+      padding-left: 30px;
+    }
+
+    .list_2, .list_3 {
+      padding-left: 70px;
+    }
+    
+    .leftbutton, .rightbutton {
+      width: 0; 
+      height: 0; 
+      border: 40px solid rgb(168, 181, 183);
+      border-bottom-color: transparent;
+      border-top-color: transparent;
+      display: inline-block;
+      position: relative;
+      margin-top: 192px;
+    }
+    
+    .leftbutton {
+      border-left-width: 0;
+      float: left;
+    }
+  
+    .rightbutton {
+      border-right-width: 0;
+      float: right;
+    }
+
+  }
+
+
+}
+

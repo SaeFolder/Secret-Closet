@@ -1,0 +1,125 @@
+.box {
+  position: relative;
+  z-index: 1;
+  width: 1305px;
+  height: 958px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box:after { // 백그라운드만 투명하게 만들기 위함.
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-size: 100%;
+  opacity: 0.46!important;
+  filter: alpha(opacity=46);
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-image: url("../../../../assets/background.jpg");
+}
+
+.detail_box {
+  width: 1206px;
+  height: 729px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 120px;
+  z-index: 1;
+}
+
+.detail_box:after {
+  background-color: #eeeeee;
+  position: absolute;
+  background-size: 100%;
+  opacity: 0.95!important;
+  filter: alpha(opacity=95);
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+
+.img_box {
+  width: 546px;
+  height: 633px;
+  display: inline-block;
+  margin-top: 48px;
+  margin-left: 28px;
+
+  .leftbutton, .rightbutton {
+    width: 0; 
+    height: 0; 
+    border: 40px solid rgb(168, 181, 183);
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    display: inline-block;
+    position: relative;
+    margin-top: 285px;
+  }
+  
+  .leftbutton {
+    border-left-width: 0;
+    float: left;
+  }
+
+  .rightbutton {
+    border-right-width: 0;
+    float: right;
+  }
+
+  .detail {
+    width: 412px;
+    height: 633px;
+    margin-left: 26px;
+  }
+}
+
+.text_box {
+  width: 490px;
+  display: block;
+  float: right;
+  margin-right: 100px;
+  margin-top: 62px;
+
+  .p1, .p2, .p3, .p4 {
+    font-family: HelveticaNeue;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .p1 {
+    font-size: 60px;
+  }
+  
+  .p2 {
+    font-size: 40px;
+    padding-left: 6px;
+    margin-top: 30px;
+  }
+  
+  .p3 {
+    margin-top: 40px;
+    padding-left: 11px;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 50px;
+  }
+
+  .p4 {
+    font-family: NanumGothic;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 40px;
+    padding-left: 16px;
+    margin-top: 25px;
+  }
+}
