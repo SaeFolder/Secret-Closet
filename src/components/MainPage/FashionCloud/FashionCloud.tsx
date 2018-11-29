@@ -1,5 +1,6 @@
 import * as React from "react";
 import * as styles from "./FashionCloud.scss";
+import { Link } from 'react-router-dom';
 
 class FashionCloud extends React.Component {
   public render() {
@@ -8,61 +9,61 @@ class FashionCloud extends React.Component {
         <div className={styles.cloudbox}>
           <div className={styles.cloudbox_2}/>
           <div className={styles.feminine}>
-            FEMININE
+            <Link to="/FEMININE">FEMININE</Link>
           </div>
           <div className={styles.colorbox_1}/>
           <div className={styles.pair}>
-            PAIR
+            <Link to="/PAIR">PAIR</Link>
           </div>
           <div className={styles.dandy}>
-            DANDY
+          <Link to="/DANDY">DANDY</Link>
           </div>
           <div className={styles.casual}>
-            CASUAL
+          <Link to="/CASUAL">CASUAL</Link>
           </div>
           <div className={styles.vintage}>
-            VINTAGE
+          <Link to="/VINTAGE">VINTAGE</Link>
           </div>
           <div className={styles.retro}>
-            RETRO
+          <Link to="/RETRO">RETRO</Link>
           </div>
           <div className={styles.colorbox_2}/>
           <div className={styles.simple}>
-            SIMPLE
+          <Link to="/SIMPLE">SIMPLE</Link>
           </div>
           <div className={styles.colorbox_3}/>
           <div className={styles.colorbox_4}/>
           <div className={styles.modern}>
-            MODERN
+          <Link to="/MODERN">MODERN</Link>
           </div>
           <div className={styles.classic}>
-            CLASSIC
+            <Link to="/CLASSIC">CLASSIC</Link>
           </div>
           <div className={styles.sporty}>
-            SPORTY
+            <Link to="/SPORTY">SPORTY</Link>
           </div>
           <div className={styles.office}>
-            OFFICE
+            <Link to="/OFFICE">OFFICE</Link>
           </div>
           <div className={styles.layered}>
-            LAYERED
+            <Link to="/LAYERED">LAYERED</Link>
           </div>
           <div className={styles.colorbox_5}/>
           <div className={styles.min}>
-            MIN
+            <Link to="/MIN">MIN</Link>
           </div>
           <div className={styles.max}>
-            MAX
+            <Link to="/MAX">MAX</Link>
           </div>
           <div className={styles.street}>
-            STREET
+            <Link to="/STREET">STREET</Link>
           </div>
           <div className={styles.hiphop}>
-            HIPHOP
+           <Link to="/HIPHOP">HIPHOP</Link>
           </div>
           <div className={styles.colorbox_6}/>
           <div className={styles.ethnic}>
-            ETHNIC
+            <Link to="/ETHNIC">ETHNIC</Link>
           </div>
         </div>
         

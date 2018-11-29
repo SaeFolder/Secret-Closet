@@ -1,11 +1,14 @@
 import * as React from "react";
 import ClothesList from "./ClothesList/ClothesList";
 import ClothesDetail from "./ClothesDetail/ClothesDetail";
-class Clothes extends React.Component {
+
+
+
+class Clothes extends React.Component<{fashion:string}> {
   public render() {
     return (
 			<div>
-        <ClothesList/>
+        <ClothesList />
         <ClothesDetail/>
       </div>
     );

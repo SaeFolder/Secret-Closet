@@ -2,13 +2,14 @@ import * as React from "react";
 import Header from "./Header/Header";
 import Clothes from "./Clothes/Clothes";
 import * as styles from "./SubPage.scss";
+import { RouteComponentProps } from 'react-router';
 
-class SubPage extends React.Component {
-  public render() {
+class SubPage extends React.Component<RouteComponentProps<{fashion:string}>> {
+  render() {    
     return (
-			<div className={styles.SubPage}>
+      <div className={styles.SubPage}>
         <Header/>
-        <Clothes/>
+        <Clothes fashion={this.props.match.params.fashion} />
       </div>
     );
   }
